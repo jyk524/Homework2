@@ -25,6 +25,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
+        <!-- Links from Root for Nav bar added -->
         <li class="nav-item active">
         <a class="nav-link" href="index.html">About/Home<span class="sr-only">(current)</span></a>
         </li>
@@ -47,31 +48,35 @@
     </ul>
     </div>
   </nav>
-
-  <form class="container">
-    <div class="col-5">
-    
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name">
-          </div>
-        </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
+<!-- Containter added and container size set to 5 columns -->
+<main class="container">
+  <div class="col-5">
+    <form class="container">
       
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-    </div>
-  </form>
-  
-  
-
+        <!-- Added forms from Bootstrap for Name, Email (email sensitive) and Message -->
+        <!-- Name form -->
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First and Last name">
+          </div>
+          <!-- Email form -->
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <!-- Text area for messages -->
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+      </div>
+    </form>
+  </div>
+</main>  
 
 </body>
+
+
+
+
 </html>
