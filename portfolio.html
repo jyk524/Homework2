@@ -5,6 +5,8 @@
     <!-- Google Font Merriweather link -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="Assets\Styles\stylep.css">
+
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -20,7 +22,7 @@
 
 <body>
      <!-- Navbar link from Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">James Y. Kim</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,9 +51,56 @@
       </ul>
       </div>
     </nav>
+    <!-- Added portfolio header and hr break line -->
+  <main class="container">
+      <section class="row">
+          <form class="block form-horizontal">
+            <h1 class="block-header">Portfolio</h1>
+            <hr/>
 
-<div class="container">
+            <!-- Added cards that contain images I uploaded into the assets/images, breakpoint set to medium 768 -->
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Assets\Images\sideshot.JPG" class="card-img-top" alt="James Kim 2020">
+          <div class="card-body">
+            <h5 class="card-title">Visiting Stanford Campus</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo exercitationem consectetur aliquam reprehenderit laudantium. Nemo alias reprehenderit amet error atque id doloremque delectus, consectetur unde veritatis officia iure, recusandae voluptate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Assets\Images\flower 3.JPG" class="card-img-top" alt="James Kim 2020">
+          <div class="card-body">
+            <h5 class="card-title">Beautiful Bouquet</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, sed rerum enim dolores magnam autem molestias. Sint labore officiis ipsam laboriosam, excepturi quia velit deserunt esse omnis eius ipsa recusandae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Assets\Images\food 1.jpg" class="card-img-top" alt="James Kim 2020">
+          <div class="card-body">
+            <h5 class="card-title">Korean Pancakes</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aut optio labore, velit nesciunt quibusdam et excepturi, illum consequuntur eum saepe! Culpa, officiis consectetur! Nemo saepe labore consequuntur adipisci aperiam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="Assets\Images\flower 4.JPG" class="card-img-top" alt="James Kim 2020">
+          <div class="card-body">
+            <h5 class="card-title">Alium</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsum deleniti voluptas in pariatur rem obcaecati quae nostrum beatae, repellendus illum sint enim numquam provident ad eligendi hic, ipsa neque?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Decided to move carousel to index -->
+<!-- <div class="container">
   <div class="col-8">
+    <h1>Portfolio</h1>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -90,6 +139,12 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>    
+</div> -->
+<!-- Simple footer added -->
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">James Kim 2020</span>
+  </div>
+</footer>    
 </body>
 </html>

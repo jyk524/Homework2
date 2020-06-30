@@ -1,0 +1,9 @@
+/* Puts the footer at the bottom of the page */
+.text-muted {
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+}
+h1{
+  color: rgba(55, 100, 185, 0.746);
+}
