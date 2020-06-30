@@ -1,0 +1,14 @@
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+
+1. Added About me page as index.html
+    Here I added a carousel to have a couple of images to occupy the same space. Added a lorem as a bio that will be changed.
+2. Added a Navbar on each page
+    The dark navbar links to all the pages, turns into a hamburger dropdown at smaller viewpoints breaking at medium 768 pixels
+3. Added Cards on Portfolio page
+    Added 4 cards with lorem descriptions and alts of my photography
+4. Added Contact page
+    a. Used bootstrap forms create a responsive form page, the email is not yet connected and messages do not send.
+5. Added colored Headers on all pages
+    this will help the user to know where they are in the website
+6. The site is responsive with breakpoitns at 768
+    Mobile computers are the most used for viewing websites and this website utilizes a carousel, drop down links, and responsive bootstrap to acheive a mobile read page
