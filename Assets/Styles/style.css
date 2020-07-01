@@ -1,4 +1,8 @@
-
+/* adds color for header */
 h1{
   color: rgba(55, 100, 185, 0.746);
+}
+/* adds centering for footer and relative positioning*/
+footer{
+position: relative auto;
 }
